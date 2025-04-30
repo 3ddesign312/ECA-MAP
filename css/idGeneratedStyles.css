@@ -21,8 +21,6 @@ div.Basic-Graphics-Frame {
 	border-width:1px;
 	border-style:solid;
 }
-
-/* FULLSCREEN FIX */
 #_idContainer000 {
 	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-ms-transform-origin:0% 0%;
@@ -50,9 +48,6 @@ div.Basic-Graphics-Frame {
 	transform-origin:0% 0%;
 	width:780.00px;
 }
-
-/* ... (the rest of your original CSS remains unchanged) ... */
-
 img._idGenObjectAttribute-1 {
 	height:100.00%;
 	min-width:100%;
@@ -122,10 +117,9 @@ div._idGenStateHide, div._idGenStateHide *{
 	visibility:hidden;
 }
 
-/* 👇 FINAL OVERRIDES TO REMOVE SCROLLBARS AND WHITE SPACE */
 html, body {
-	margin: 0 !important;
-	padding: 0 !important;
-	overflow: hidden !important;
-	background: #222 !important;
+	margin: 0 
+	padding: 0 
+	overflow: hidden 
+	background: #222 
 }
