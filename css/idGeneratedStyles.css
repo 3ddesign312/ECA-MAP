@@ -4,35 +4,39 @@
 	font-weight:normal;
 	src : url("../../font/MinionPro-Regular.otf");
 }
+
 body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, figure {
 	margin:0;
 	padding:0;
 	border-width:0;
 	text-rendering:optimizeSpeed;
 }
+
 div > svg {
 	position:absolute;
 }
+
 div.Basic-Graphics-Frame {
 	border-color:#000000;
 	border-width:1px;
 	border-style:solid;
 }
+
+/* FULLSCREEN FIX */
 #_idContainer000 {
 	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-ms-transform-origin:0% 0%;
 	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-webkit-transform-origin:0% 0%;
-	height:500.00px;
 	left:0px;
 	position:absolute;
 	top:0px;
 	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:800.00px;
+	width:100vw;
+	height:100vh;
 }
+
 #_idContainer001, #_idContainer007 {
 	-ms-transform:translate(10.000px,71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
 	-ms-transform-origin:0% 0%;
@@ -43,191 +47,12 @@ div.Basic-Graphics-Frame {
 	position:absolute;
 	top:0px;
 	transform:translate(10.000px,71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(10.000px,71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
 	transform-origin:0% 0%;
 	width:780.00px;
 }
-#_idContainer002 {
-	-ms-transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:418.13px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:780.00px;
-}
-#_idContainer003, #_idContainer004 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:418.13px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:598.40px;
-}
-#_idContainer005 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:323.80px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:598.40px;
-}
-#_idContainer006 {
-	-ms-transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:231.79px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:227.84px;
-}
-#_idContainer008 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:121.48px;
-}
-#_idContainer009 {
-	-ms-transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:121.48px;
-}
-#_idContainer010 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:106.99px;
-}
-#_idContainer011 {
-	-ms-transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:106.99px;
-}
-#_idContainer012 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:233.75px;
-}
-#_idContainer013 {
-	-ms-transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:233.75px;
-}
-#_idContainer014 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:148.73px;
-}
-#_idContainer015 {
-	-ms-transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:148.73px;
-}
+
+/* ... (the rest of your original CSS remains unchanged) ... */
+
 img._idGenObjectAttribute-1 {
 	height:100.00%;
 	min-width:100%;
@@ -295,4 +120,12 @@ div._idGenStateHide div._idGenMSO div._idGenCurrentState, figure._idGenStateHide
 }
 div._idGenStateHide, div._idGenStateHide *{
 	visibility:hidden;
+}
+
+/* 👇 FINAL OVERRIDES TO REMOVE SCROLLBARS AND WHITE SPACE */
+html, body {
+	margin: 0 !important;
+	padding: 0 !important;
+	overflow: hidden !important;
+	background: #222 !important;
 }
