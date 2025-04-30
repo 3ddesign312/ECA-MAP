@@ -22,15 +22,6 @@ div.Basic-Graphics-Frame {
 	border-style: solid;
 }
 
-.fixed-layout-wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 800px;
-  height: 500px;
-  transform: translate(-50%, -50%);
-}
-
 #_idContainer001, #_idContainer007 {
 	-ms-transform: translate(10.000px, 71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000, 1.000);
 	-ms-transform-origin: 0% 0%;
