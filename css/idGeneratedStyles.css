@@ -23,17 +23,14 @@ div.Basic-Graphics-Frame {
 }
 
 #_idContainer000 {
-	-ms-transform: translate(0.000px, 0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000, 1.000);
-	-ms-transform-origin: 0% 0%;
-	-webkit-transform: translate(0.000px, 0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000, 1.000);
-	-webkit-transform-origin: 0% 0%;
-	left: 0px;
-	position: absolute;
-	top: 0px;
-	transform: translate(0.000px, 0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000, 1.000);
-	transform-origin: 0% 0%;
-	width: 100vw;
-	height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 500px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 
 #_idContainer001, #_idContainer007 {
@@ -155,8 +152,9 @@ div._idGenStateHide * {
 
 /* ✅ NEW: Prevent scrollbars + white space, set dark background */
 html, body {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background: #222;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #222;
 }
+
