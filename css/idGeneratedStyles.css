@@ -129,17 +129,15 @@ div._idGenStateHide * {
 	visibility: hidden;
 }
 
-/* ✅ NEW: Centered wrapper for fixed-size layout */
 .fixed-layout-wrapper {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 800px;
-	height: 500px;
-	transform: translate(-50%, -50%);
+  position: relative;
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+  background: #222;
+  margin: 0 auto;
 }
 
-/* ✅ NEW: Prevent scrollbars + white space, set dark background */
 html, body {
   margin: 0;
   padding: 0;
