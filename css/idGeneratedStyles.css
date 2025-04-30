@@ -22,15 +22,13 @@ div.Basic-Graphics-Frame {
 	border-style: solid;
 }
 
-#_idContainer000 {
+.fixed-layout-wrapper {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
   width: 800px;
   height: 500px;
   transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
 }
 
 #_idContainer001, #_idContainer007 {
