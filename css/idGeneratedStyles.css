@@ -1,298 +1,88 @@
-@font-face {
-	font-family:"Minion Pro";
-	font-style:normal;
-	font-weight:normal;
-	src : url("../../font/MinionPro-Regular.otf");
-}
-body, div, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, figure {
-	margin:0;
-	padding:0;
-	border-width:0;
-	text-rendering:optimizeSpeed;
-}
-div > svg {
-	position:absolute;
-}
-div.Basic-Graphics-Frame {
-	border-color:#000000;
-	border-width:1px;
-	border-style:solid;
-}
-#_idContainer000 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:500.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:800.00px;
-}
-#_idContainer001, #_idContainer007 {
-	-ms-transform:translate(10.000px,71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(10.000px,71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:418.13px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(10.000px,71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(10.000px,71.867px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:780.00px;
-}
-#_idContainer002 {
-	-ms-transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:418.13px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,-0.001px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:780.00px;
-}
-#_idContainer003, #_idContainer004 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:418.13px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:598.40px;
-}
-#_idContainer005 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:323.80px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:598.40px;
-}
-#_idContainer006 {
-	-ms-transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:231.79px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(370.551px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:227.84px;
-}
-#_idContainer008 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:121.48px;
-}
-#_idContainer009 {
-	-ms-transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(668.524px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:121.48px;
-}
-#_idContainer010 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:106.99px;
-}
-#_idContainer011 {
-	-ms-transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(505.185px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:106.99px;
-}
-#_idContainer012 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:233.75px;
-}
-#_idContainer013 {
-	-ms-transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(215.081px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:233.75px;
-}
-#_idContainer014 {
-	-ms-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(0.000px,0.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:148.73px;
-}
-#_idContainer015 {
-	-ms-transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-ms-transform-origin:0% 0%;
-	-webkit-transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	-webkit-transform-origin:0% 0%;
-	height:50.00px;
-	left:0px;
-	position:absolute;
-	top:0px;
-	transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform:translate(10.000px,10.000px) rotate(0.000deg) skew(0.000deg) scale(1.000,1.000);
-	transform-origin:0% 0%;
-	transform-origin:0% 0%;
-	width:148.73px;
-}
-img._idGenObjectAttribute-1 {
-	height:100.00%;
-	min-width:100%;
-	width:100.00%;
-}
-img._idGenObjectAttribute-2 {
-	left:0px;
-	position:absolute;
-	top:0px;
-}
-div._idGenObjectStyle-Disabled {
-	background-color:transparent;
-	border-width:0px;
-}
-div._idGenButton div._idGen-Appearance-Normal {
-	visibility:visible;
-}
-div._idGenButton div._idGen-Appearance-Rollover {
-	visibility:hidden;
-}
-div._idGenButton div._idGen-Appearance-Click {
-	visibility:hidden;
-}
-div._idGenButton {
-	cursor:pointer;
-}
-div._idGenButton._idGenStateHover div._idGen-Appearance-Normal {
-	visibility:hidden;
-}
-div._idGenButton._idGenStateHover div._idGen-Appearance-Rollover {
-	visibility:visible;
-}
-div._idGenButton._idGenStateHover div._idGen-Appearance-Click {
-	visibility:hidden;
-}
-div._idGenButton._idGenStateClick div._idGen-Appearance-Normal {
-	visibility:hidden;
-}
-div._idGenButton._idGenStateClick div._idGen-Appearance-Rollover {
-	visibility:hidden;
-}
-div._idGenButton._idGenStateClick div._idGen-Appearance-Click {
-	visibility:visible;
-}
-div._idGenStateHide div._idGen-Appearance-Normal {
-	visibility:hidden;
-}
-div._idGenStateHide div._idGen-Appearance-Rollover {
-	visibility:hidden;
-}
-div._idGenStateHide div._idGen-Appearance-Click {
-	visibility:hidden;
-}
-div._idGenMSO {
-   visibility:hidden;
-}
-div._idGenMSO div._idGenCurrentState, div._idGenMSO figure._idGenCurrentState {
-   visibility:visible;
-}
-div._idGenMSO._idGenStateHide div._idGenCurrentState, div._idGenMSO._idGenStateHide figure._idGenCurrentState {
-   visibility:hidden;
-}
-div._idGenStateHide div._idGenMSO div._idGenCurrentState, figure._idGenStateHide div._idGenMSO figure._idGenCurrentState {
-   visibility:hidden;
-}
-div._idGenStateHide, div._idGenStateHide *{
-	visibility:hidden;
-}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Map</title>
+
+    <link href="../css/idGeneratedStyles.css" rel="stylesheet" type="text/css" />
+    <script src="../script/idGeneratedScript.js" type="text/javascript"></script>
+
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: white;
+        overflow-x: hidden;
+      }
+
+      .responsive-wrapper {
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body id="publication" onload="RegisterInteractiveHandlers();">
+    <div class="responsive-wrapper">
+      <div id="_idContainer000" class="Basic-Graphics-Frame _idGenObjectStyle-Disabled">
+        <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/1.jpg" alt="" />
+      </div>
+
+      <div id="_idContainer001">
+        <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Asset_5.svg" alt="" />
+      </div>
+
+      <div id="_idContainer007" class="_idGenMSO">
+        <div class="_idGenCurrentState" id="_idContainer002" data-idGenObjectState="State 5">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Asset_5.svg" alt="" />
+        </div>
+        <div class="_idGenStateHide" id="_idContainer003" data-idGenObjectState="State 1">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/WM_map.svg" alt="" />
+        </div>
+        <div class="_idGenStateHide" id="_idContainer004" data-idGenObjectState="State 2">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Asset_3.svg" alt="" />
+        </div>
+        <div class="_idGenStateHide" id="_idContainer005" data-idGenObjectState="State 3">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Asset_2.svg" alt="" />
+        </div>
+        <div class="_idGenStateHide" id="_idContainer006" data-idGenObjectState="State 4">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Asset_4.svg" alt="" />
+        </div>
+      </div>
+
+      <div id="_idContainer009" class="_idGenButton" data-releaseactions="goToState('_idContainer007','State 4','',0.000);">
+        <div class="_idGen-Appearance-Normal" id="_idContainer008">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Danver_x_Brown_2A2829.svg" alt="" />
+        </div>
+      </div>
+
+      <div id="_idContainer011" class="_idGenButton" data-releaseactions="goToState('_idContainer007','State 3','',0.000);">
+        <div class="_idGen-Appearance-Normal" id="_idContainer010">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Stoll.svg" alt="" />
+        </div>
+      </div>
+
+      <div id="_idContainer013" class="_idGenButton" data-releaseactions="goToState('_idContainer007','State 2','',0.000);">
+        <div class="_idGen-Appearance-Normal" id="_idContainer012">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Bridgewood_2A2829.svg" alt="" />
+        </div>
+      </div>
+
+      <div id="_idContainer015" class="_idGenButton" data-releaseactions="goToState('_idContainer007','State 1','',0.000);">
+        <div class="_idGen-Appearance-Normal" id="_idContainer014">
+          <img class="_idGenObjectAttribute-1 _idGenObjectAttribute-2" src="../image/Wood-Mode.svg" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
